@@ -1,16 +1,14 @@
 <?php
 
 define('ROOT', realpath(__DIR__) . '/..');
+define('SJO_LOCALE', 'fr_FR');
 
-/** Vendor */
+/** Autoload */
 include ROOT . '/vendor/autoload.php';
 
-/**
- * Load Framework
- *
- * @var \sJo\Core\Loader $Loader
- */
+/** @var \sJo\Core\Loader $Loader Load Framework */
 $Loader = new \sJo\Core\Loader();
 
-/** Display view */
-$Loader->display();
+$Loader
+    ->init()
+    ->display();
