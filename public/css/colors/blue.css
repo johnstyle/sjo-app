@@ -1,0 +1,36 @@
+body {
+    color:#315175
+}
+
+.navbar-default,
+.sidebar {
+    background-color: #315175;
+    border-color: #032D59
+}
+
+.navbar-default a.navbar-brand,
+.navbar-default a,
+.sidebar a {
+    color: #EFF2F3
+}
+
+#wrap {
+    background:#EFF2F3
+}
+
+.sidebar li a:hover {
+    background-color: #043A73
+}
+
+.sidebar li.active a {
+    color: #fff;
+    background-color: #032D59
+}
+
+.sidebar li.active a:after {
+    border-right-color: #EFF2F3
+}
+
+.page-header {
+    border-color:#A5B2C2
+}
