@@ -1,4 +1,5 @@
 {
+    "name": "johnstyle/sjo-app",
     "require": {
         "johnstyle/sjo": "dev-master"
     }
